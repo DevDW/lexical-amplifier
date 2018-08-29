@@ -1,0 +1,29 @@
+{
+  "name": "lexical-amplifier",
+  "version": "1.0.0",
+  "description": "A full-stack application that returns definitions for queried words and allows you to export the results of your searches in an Excel file.",
+  "keywords": [
+    "dictionary",
+    "oxford",
+    "definitions",
+    "learning",
+    "words"
+  ],
+  "author": "Dajahi Wiley",
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "start": "concurrently \"node server\" \"cd client && npm start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"node server\" \"cd client && npm start\""
+  },
+  "dependencies": {
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "exceljs": "^1.6.0",
+    "express": "^4.16.2",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {
+    "concurrently": "^3.6.1"
+  }
+}
