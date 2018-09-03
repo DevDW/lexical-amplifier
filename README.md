@@ -5,6 +5,7 @@ A full-stack dictionary application (Node.js back-end, React front-end) that ret
 In order to successfully run the Lexical Amplifier after downloading this repo, you will need to obtain API credentials from Oxford Dictionaries. To obtain your API credentials, visit https://developer.oxforddictionaries.com/?tag=#plans.
 
 Web Deployments:
+
 [Lexical Amplifier on Heroku](https://lexical-amplifier.herokuapp.com/) | Please note there is currently no download functionality.
 
 ### Installation & Setup
