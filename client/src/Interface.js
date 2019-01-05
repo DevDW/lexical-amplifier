@@ -1,15 +1,16 @@
 import React, { Component } from 'react'
+import './App.css'
 
 // CSS styling to underline queried words.
-const queryStyle = {
+/* const queryStyle = {
     textDecoration: 'underline'
-}
+} */
 
 // Return the queried word and its definitions right below it, via props.
 function EntryStructure(props) {
     return (
         <div>
-            <h1 className="Queried-Word" style={queryStyle}>
+            <h1 className="QueriedWord">
                 {props.word}
             </h1>
 

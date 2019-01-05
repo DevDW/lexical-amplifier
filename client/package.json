@@ -4,8 +4,8 @@
   "private": true,
   "license": "AGPL-3.0-only",
   "dependencies": {
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
     "react-request": "^3.1.2",
     "react-scripts": "1.1.4"
   },
